@@ -1,4 +1,4 @@
-FROM nginx:1.9
+FROM nginx:1.13
 MAINTAINER Rick Guyer <ricoguyer@gmail.com>
 
 COPY nginx.conf /etc/nginx/nginx.conf
